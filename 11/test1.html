@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style type="text/css">
+        #id1 {color: white; background-color: black;}
+        #id2 {color: white; background-color: blue;}
+    </style>
+</head>
+<body>
+    <table boreder=1>
+    <tr>
+    <script type="text/javascript">
+    for(i=1; i<=10; i++) {
+        // if (i%2 == 1) document.write("<td style='color: white; background-color: green; width: 40px; height:40px; text-align: center;'>" + i);
+        // else document.write("<td style='color: white; background-color: red; width: 40px; height:40px; text-align: center;'>" + i);
+        if (i%2 == 1) document.write("<td id=id1>" + i);
+        else document.write("<td id=id2>" + i);
+    }
+    </script>
+</body>
+</html>

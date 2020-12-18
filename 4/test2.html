@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+            .cls {font-family: '굴림'; text-align: center; font-size: 2em;}
+            /*p태그 전체에 굴림, 가운데 정렬을 설정하였습니다.*/
+            /*각 라인들의 글씨 크기가 똑같이 하기 위해 h1태그의 font size인 2em으로 모두 설정하였습니다.*/
+            #id1 {color: red;} /*font color를 red로 설정*/
+            #id2 {font-style: italic;} /*font style을 이탤릭체로 설정*/
+            #id3 {color:limegreen;} /*font color를 limegreen으로 설정*/
+            #id4 {font-weight: bold;} /*h태그는 기본 굵기가 bold이기 때문에 적용하지 않아도 올바르게 보여지는것 같습니다*/  
+            #id5 {text-decoration: underline;} /*underline 두께보다 얇게 표현하기 위해 border-bottom 속성을 사용하였습니다.*/
+            #id6 {font-weight: normal; text-shadow: 1px 1px 1px;}
+            /*그림자 설정하였고, 예시와 최대한 비슷하게 하기 위해 굵기를 normal로 설정하였습니다.*/
+        </style>
+    </head>
+    <body>
+        <p><h1 class="cls" id="id1">우리 대학교 교육 이념은</h1></p>
+        <p><h2 class="cls" id="id2">언제나 솔선수범하며</h2></p>
+        <p><h3 class="cls" id="id3">타인을 배려하고</h3></p>
+        <p><h4 class="cls" id="id4">사회에 봉사하는</h4></p>
+        <p><h5 class="cls"><span id="id5">글로벌 인재 양성</span>을</h5></p> <!--'글로벌 인재 양성'까지만 밑줄이 그어져야 하므로 span 설정-->
+        <p><h6 class="cls" id="id6">추구하고 실천하는 교육 이념입니다.</h6></p>
+    </body>
+</html>
